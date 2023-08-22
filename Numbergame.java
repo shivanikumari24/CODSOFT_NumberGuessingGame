@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.Random;
+
 public class numbergame {
      public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
