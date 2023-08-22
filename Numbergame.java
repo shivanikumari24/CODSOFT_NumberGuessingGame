@@ -29,9 +29,11 @@ public class numbergame {
                     System.out.println("Congratulations! You guessed the number in " + attempts + " attempts.");
                     score++;
                     break;
-                } else if (userGuess < targetNumber) {
+                } 
+                else if (userGuess < targetNumber) {
                     System.out.println("Too low! Try again.");
-                } else {
+                } 
+                else {
                     System.out.println("Too high! Try again.");
                 }
 
